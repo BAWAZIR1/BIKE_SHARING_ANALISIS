@@ -1,11 +1,11 @@
 ## Installation
 1.  Clone this repository
 ```
-git clone https://github.com/Muzhoffar/bike-sharing
+git clone https://github.com/BAWAZIR1/BIKE_SHARING_ANALISIS
 ```
 2.  Go to project directory
 ```
-cd bike-sharing
+cd BIKE_SHARING_ANALISIS
 ```
 3.  Install required python packages
 ```
