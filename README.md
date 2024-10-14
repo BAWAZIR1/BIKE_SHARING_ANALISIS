@@ -21,3 +21,4 @@ cd dashboard
 ```
 streamlit run dashboard.py
 ```
+URL : https://huzairhajer.streamlit.app/
