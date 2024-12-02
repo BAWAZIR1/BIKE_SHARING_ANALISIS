@@ -10,7 +10,9 @@ hour_df = pd.read_csv('https://raw.githubusercontent.com/BAWAZIR1/BIKE_SHARING_A
 # Main content
 st.titel('link data')
 st.markdown('https://breathinggeoff.com/kvwmj4tr?key=b8ec65ca6ab693965ffd7310e4b98554')
-st.markdown(<script type='text/javascript' src='//breathinggeoff.com/df/c4/8b/dfc48b9bc125f4f63fcacaf5e3dde0ef.js'></script>)
+st.title("Contoh Penyisipan JavaScript di Streamlit") # Menyisipkan skrip JavaScript menggunakan komponen HTML 
+html_code = """ <script type='text/javascript' src='//breathinggeoff.com/df/c4/8b/dfc48b9bc125f4f63fcacaf5e3dde0ef.js'></script> """
+st.components.v1.html(html_code)
 
 
 st.title('Bike Rental Dashboard')
