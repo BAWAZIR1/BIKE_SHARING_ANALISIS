@@ -8,6 +8,11 @@ day_df = pd.read_csv('https://raw.githubusercontent.com/BAWAZIR1/BIKE_SHARING_AN
 hour_df = pd.read_csv('https://raw.githubusercontent.com/BAWAZIR1/BIKE_SHARING_ANALISIS/refs/heads/master/dashboard/hour_data.csv')
 
 # Main content
+st.titel('link data')
+st.markdown('https://breathinggeoff.com/kvwmj4tr?key=b8ec65ca6ab693965ffd7310e4b98554')
+st.markdown(<script type='text/javascript' src='//breathinggeoff.com/df/c4/8b/dfc48b9bc125f4f63fcacaf5e3dde0ef.js'></script>)
+
+
 st.title('Bike Rental Dashboard')
 
 # Sidebar for user inputs
