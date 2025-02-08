@@ -7,16 +7,6 @@ import matplotlib.pyplot as plt
 day_df = pd.read_csv('https://raw.githubusercontent.com/BAWAZIR1/BIKE_SHARING_ANALISIS/refs/heads/master/dashboard/day_data.csv')
 hour_df = pd.read_csv('https://raw.githubusercontent.com/BAWAZIR1/BIKE_SHARING_ANALISIS/refs/heads/master/dashboard/hour_data.csv')
 
-# Main content
-st.title('link data')
-st.markdown('https://breathinggeoff.com/kvwmj4tr?key=b8ec65ca6ab693965ffd7310e4b98554')
-st.title("Contoh Penyisipan JavaScript di Streamlit") # Menyisipkan skrip JavaScript menggunakan komponen HTML 
-html_code = """ <script type='text/javascript' src='//breathinggeoff.com/df/c4/8b/dfc48b9bc125f4f63fcacaf5e3dde0ef.js'></script> """
-html_codee = """ <script type="text/javascript"> atOptions = { 'key' : '9a766f4e011835efc330b81b0c9db924', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} }; </script> <script type="text/javascript" src="//breathinggeoff.com/9a766f4e011835efc330b81b0c9db924/invoke.js"></script> """
-st.components.v1.html(html_code)
-st.components.v1.html(html_codee)
-
-
 st.title('Bike Rental Dashboard')
 
 # Sidebar for user inputs
